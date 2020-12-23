@@ -1,0 +1,16 @@
+{
+  "name": "transformice",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "onelua ."
+  },
+  "onelua": {
+    "main": "index.lua"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "onelua": "git+https://github.com/cngc4e/onelua.git#1.0.1"
+  }
+}
