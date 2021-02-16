@@ -6,7 +6,6 @@ local Class = {}
 do
     Class.className = "Class"
     Class._class = Class
-    Class.__index = Class
 
     --- @virtual
     --- @function Class:_init
@@ -63,6 +62,9 @@ do
 
         return false
     end
+
+    Class.__index = Class
+    Class.__call = Class.new
 end
 
 return Class
